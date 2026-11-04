@@ -1,0 +1,41 @@
+package org.example;
+
+import java.time.LocalDateTime;
+
+public class EstadoAtendida implements EstadoCita {
+
+    @Override
+    public void confirmar(Cita cita) throws ClinicaException {
+        throw new ReglaClinicaException("La cita ya fue atendida.");
+    }
+
+    @Override
+    public void atender(Cita cita, AtencionMedica atencion) throws ClinicaException {
+        throw new ReglaClinicaException("La cita ya fue atendida anteriormente.");
+    }
+
+    @Override
+    public void cancelar(Cita cita, LocalDateTime momentoActual) throws ClinicaException {
+        throw new ReglaClinicaException("No se puede cancelar una cita que ya fue atendida.");
+    }
+
+    @Override
+    public void cambiarFecha(Cita cita, LocalDateTime nuevaFecha, LocalDateTime momentoActual) throws ClinicaException {
+        throw new ReglaClinicaException("No se puede cambiar una cita que ya fue atendida.");
+    }
+
+    @Override
+    public void marcarNoAsistio(Cita cita) throws ClinicaException {
+        throw new ReglaClinicaException("El paciente ya fue atendido.");
+    }
+
+    @Override
+    public String getNombre() {
+        return "ATENDIDA";
+    }
+
+    @Override
+    public boolean esActiva() {
+        return false;
+    }
+}
