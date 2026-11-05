@@ -1,4 +1,4 @@
-package com.clinica;
+package org.example;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
