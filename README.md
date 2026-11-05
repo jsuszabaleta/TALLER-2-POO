@@ -3,7 +3,7 @@ Nombres:
 jsuszabaleta : Jesús Zabaleta Benitez
 Zahico : Diego Hernandez
 MAGJ2334 : Miguel Gil Jaramillo
-Jasa231228: Jacob Santamaria
+Jasa23128: Jacob Santamaria
 UML:
 
 class Persona {
