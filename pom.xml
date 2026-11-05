@@ -9,9 +9,6 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Sistema de Clínica y Agenda de Citas Médicas</name>
-    <description>Taller POO 2026-2 - Contexto: Clínica y agenda de citas médicas (Patrones Builder y State)</description>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
