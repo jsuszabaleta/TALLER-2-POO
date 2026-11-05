@@ -1,4 +1,4 @@
-package com.clinica;
+package org.example;
 
 @FunctionalInterface
 public interface ValidadorCita {

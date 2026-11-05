@@ -1,4 +1,4 @@
-package com.clinica;
+package org.example;
 
 import java.util.Comparator;
 
